@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0.5rem auto;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+header {
+  padding: 1rem;
+  width: 40rem;
+  margin: 0.5rem auto;
+  text-align: center;
+  color: #707070;
+}
+
+.first_header {
+  font-weight: 300;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.one,
+.two,
+.three,
+.four {
+  width: 23rem;
+  height: 14rem;
+  margin: 0.5rem auto;
+  -webkit-box-shadow: 2px 6px 10px #bbbbbb;
+          box-shadow: 2px 6px 10px #bbbbbb;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.one {
+  border-radius: 1rem;
+  border-top: 1rem solid #e82828;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-row-end: 1;
+}
+
+.two {
+  border-radius: 1rem;
+  border-top: 1rem solid #53e8ff;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 2;
+  margin-top: -8rem;
+  margin-right: -1rem;
+}
+
+.three {
+  border-radius: 1rem;
+  border-top: 1rem solid #3fa8fe;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-row-end: 2;
+  margin-top: -8rem;
+  margin-left: -1rem;
+}
+
+.four {
+  border-radius: 1rem;
+  border-top: 1rem solid #ffd21f;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-row-end: 3;
+  margin-top: -8rem;
+}
+
+.card {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.card > h4 {
+  color: #707070;
+  padding: 0.5rem 0rem;
+}
+
+.card > p {
+  color: #969696;
+  font-size: 0.9rem;
+}
+
+img {
+  float: right;
+  margin: 2rem auto;
+}
+
+/* MEDIA QUERIE  */
+@media only screen and (max-width: 1150px) {
+  /* For mobile phones: */
+  main {
+    -webkit-box-shadow: 2px 8px 10px #969696;
+            box-shadow: 2px 8px 10px #969696;
+    width: 80%;
+  }
+  header {
+    width: 80%;
+  }
+  header > p {
+    padding: 1rem 0rem;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    margin: 0.5rem auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+{
+  "name": "four_card",
+  "version": "1.0.0",
+  "description": "Four card feature section",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch assets/scss -o assets/css"
+  },
+  "author": "Emma forsberg",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
