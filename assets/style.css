@@ -8,6 +8,7 @@ main {
   font-family: "Lato";
   font-size: 1.2rem;
   font-weight: 100;
+  padding-bottom: 4rem;
 }
 
 header {
@@ -98,7 +99,12 @@ img {
   margin: 2rem auto;
 }
 
-/* MEDIA QUERIE  */
+footer p {
+  margin-top: -2.5rem;
+  text-align: center;
+}
+
+/* MEDIA QUERIES  */
 @media only screen and (max-width: 1150px) {
   /* For mobile phones: */
   main {
